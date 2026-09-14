@@ -1,0 +1,295 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    font-family: var(--font-sans);
+    @apply antialiased text-slate-900 bg-slate-100;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  /* Refined, professional institutional scrollbars */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+/* Creative Laser Scanner Beam Animation */
+@keyframes scanline {
+  0% {
+    top: 0%;
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 96%;
+    opacity: 0.8;
+  }
+}
+
+.animate-scanline {
+  animation: scanline 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+@keyframes laser-sweep {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(1000%);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(250%) rotate(25deg);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s infinite;
+}
+
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+}
+
+.animate-radar-pulse {
+  animation: radar-pulse 3s ease-in-out infinite;
+}
+
+@keyframes cyber-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.9));
+  }
+}
+
+.cyber-glow {
+  animation: cyber-glow 2.5s ease-in-out infinite;
+}
+
+/* Subtle Government Security Guilloche / Micro-dot pattern */
+.bg-gov-pattern {
+  background-color: #f8fafc;
+  background-image: radial-gradient(#cbd5e1 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+.bg-gov-dark-pattern {
+  background-color: #0f172a;
+  background-image: radial-gradient(#334155 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+}
+
+/* Tricolor Indian Sovereign Header Bar */
+.gov-tricolor-bar {
+  height: 3.5px;
+  background: linear-gradient(90deg, #ff9933 0%, #ff9933 33.3%, #ffffff 33.3%, #ffffff 66.6%, #138808 66.6%, #138808 100%);
+}
+
+/* Global accessibility support for prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Tailwind-compatible animate-in keyframes and utility classes */
+@keyframes enter {
+  from {
+    opacity: var(--tw-enter-opacity, 1);
+    transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0)
+      scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1))
+      rotate(var(--tw-enter-rotate, 0));
+  }
+}
+
+.animate-in {
+  animation-name: enter;
+  animation-duration: 650ms;
+  --tw-enter-opacity: initial;
+  --tw-enter-scale: initial;
+  --tw-enter-rotate: initial;
+  --tw-enter-translate-x: initial;
+  --tw-enter-translate-y: initial;
+}
+
+.fade-in {
+  --tw-enter-opacity: 0;
+}
+
+.fade-in-25 {
+  --tw-enter-opacity: 0.25;
+}
+
+.fade-in-50 {
+  --tw-enter-opacity: 0.5;
+}
+
+.slide-in-from-bottom-2 {
+  --tw-enter-translate-y: 0.5rem;
+}
+
+.slide-in-from-bottom-4 {
+  --tw-enter-translate-y: 1rem;
+}
+
+.slide-in-from-bottom-6 {
+  --tw-enter-translate-y: 1.5rem;
+}
+
+.slide-in-from-bottom-8 {
+  --tw-enter-translate-y: 2rem;
+}
+
+.slide-in-from-top-4 {
+  --tw-enter-translate-y: -1rem;
+}
+
+.slide-in-from-left-4 {
+  --tw-enter-translate-x: -1rem;
+}
+
+.slide-in-from-right-4 {
+  --tw-enter-translate-x: 1rem;
+}
+
+.zoom-in-95 {
+  --tw-enter-scale: 0.95;
+}
+
+.zoom-in-90 {
+  --tw-enter-scale: 0.9;
+}
+
+/* ==========================================================================
+   STATUTORY PRINT & PDF EXPORT STYLES (PCR 2011 FORM 1)
+   Ensures clean, formal A4 layout without UI leaks, clashing watermarks,
+   or trailing blank pages.
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm 12mm 10mm 12mm;
+  }
+
+  html,
+  body,
+  #root,
+  .h-screen,
+  #main-scroll-container,
+  main {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* Universal hide for non-print UI chrome */
+  .print\:hidden,
+  header,
+  aside,
+  nav,
+  footer.print\:hidden,
+  button:not(.allow-print),
+  .gov-tricolor-bar,
+  #labellens-system-banner,
+  #lablelens-system-banner,
+  #metrix-demo-banner {
+    display: none !important;
+  }
+
+  /* Prevent awkward page break splits */
+  .report-page-break-avoid,
+  .official-header,
+  .evidence-block,
+  .signoff-block,
+  tr,
+  tbody {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Photographic Evidence prints neatly and compactly */
+  .evidence-thumb {
+    max-height: 130px !important;
+    object-fit: contain !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Table borders and text crispness */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border-color: #cbd5e1 !important;
+  }
+}
+
+
+

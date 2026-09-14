@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <!-- Lion Capital of Ashoka (National Emblem of India) -->
+  <g fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center Lion Face & Mane -->
+    <path d="M 300 90 C 270 90, 260 110, 260 130 C 255 145, 255 160, 260 175 C 265 190, 280 200, 300 200 C 320 200, 335 190, 340 175 C 345 160, 345 145, 340 130 C 340 110, 330 90, 300 90 Z" fill="#ffffff" stroke-width="5" />
+    <!-- Center Lion Forehead & Eyes -->
+    <path d="M 285 125 C 290 120, 295 120, 300 125 C 305 120, 310 120, 315 125" stroke-width="4" />
+    <circle cx="288" cy="133" r="3.5" fill="#111827" />
+    <circle cx="312" cy="133" r="3.5" fill="#111827" />
+    <!-- Center Nose & Whiskers -->
+    <path d="M 297 142 L 303 142 L 300 148 Z" fill="#111827" stroke-width="2" />
+    <path d="M 300 148 C 295 155, 290 155, 285 152" stroke-width="3" />
+    <path d="M 300 148 C 305 155, 310 155, 315 152" stroke-width="3" />
+    <path d="M 293 158 C 297 162, 303 162, 307 158" stroke-width="3" />
+
+    <!-- Center Lion Mane Curls -->
+    <path d="M 270 110 C 255 105, 250 120, 252 135 C 245 145, 248 160, 255 170 C 250 185, 260 200, 275 208 C 285 218, 300 220, 300 220 C 300 220, 315 218, 325 208 C 340 200, 350 185, 345 170 C 352 160, 355 145, 348 135 C 350 120, 345 105, 330 110" stroke-width="4" />
+    <path d="M 275 145 C 265 155, 270 170, 280 175" stroke-width="3" />
+    <path d="M 325 145 C 335 155, 330 170, 320 175" stroke-width="3" />
+    <path d="M 270 175 C 265 190, 275 205, 290 210" stroke-width="3" />
+    <path d="M 330 175 C 335 190, 325 205, 310 210" stroke-width="3" />
+
+    <!-- Left Lion Head -->
+    <path d="M 225 125 C 205 120, 190 135, 190 155 C 185 170, 190 190, 205 200 C 215 210, 230 215, 245 210 C 255 195, 250 170, 240 150 C 235 135, 235 125, 225 125 Z" fill="#ffffff" stroke-width="4" />
+    <circle cx="210" cy="155" r="3" fill="#111827" />
+    <path d="M 200 165 C 205 168, 212 168, 218 163" stroke-width="2.5" />
+    <path d="M 185 140 C 170 150, 175 170, 180 185 C 175 200, 185 215, 200 225 C 210 235, 230 240, 245 235" stroke-width="3" />
+    <path d="M 170 165 C 160 175, 165 190, 175 200" stroke-width="3" />
+
+    <!-- Right Lion Head -->
+    <path d="M 375 125 C 395 120, 410 135, 410 155 C 415 170, 410 190, 395 200 C 385 210, 370 215, 355 210 C 345 195, 350 170, 360 150 C 365 135, 365 125, 375 125 Z" fill="#ffffff" stroke-width="4" />
+    <circle cx="390" cy="155" r="3" fill="#111827" />
+    <path d="M 400 165 C 395 168, 388 168, 382 163" stroke-width="2.5" />
+    <path d="M 415 140 C 430 150, 425 170, 420 185 C 425 200, 415 215, 400 225 C 390 235, 370 240, 355 235" stroke-width="3" />
+    <path d="M 430 165 C 440 175, 435 190, 425 200" stroke-width="3" />
+
+    <!-- Central Body & Forelegs -->
+    <path d="M 270 215 L 265 340 L 290 340 L 292 230" fill="#ffffff" stroke-width="4" />
+    <path d="M 330 215 L 335 340 L 310 340 L 308 230" fill="#ffffff" stroke-width="4" />
+    <path d="M 292 230 L 292 340 L 308 340 L 308 230" fill="#ffffff" stroke-width="3" />
+    <!-- Chest details & muscular definition -->
+    <path d="M 280 235 C 290 245, 300 245, 300 260 C 300 275, 290 285, 280 295" stroke-width="2.5" />
+    <path d="M 320 235 C 310 245, 300 245, 300 260 C 300 275, 310 285, 320 295" stroke-width="2.5" />
+
+    <!-- Left Flank & Foreleg -->
+    <path d="M 215 225 C 205 240, 205 260, 210 280 L 225 340 L 250 340 L 245 240" fill="#ffffff" stroke-width="4" />
+    <path d="M 195 245 C 185 270, 195 305, 205 340" stroke-width="3" />
+
+    <!-- Right Flank & Foreleg -->
+    <path d="M 385 225 C 395 240, 395 260, 390 280 L 375 340 L 350 340 L 355 240" fill="#ffffff" stroke-width="4" />
+    <path d="M 405 245 C 415 270, 405 305, 395 340" stroke-width="3" />
+
+    <!-- Paws with claws on the abacus -->
+    <path d="M 215 340 C 215 330, 235 330, 235 340" stroke-width="3" />
+    <path d="M 235 340 C 235 330, 255 330, 255 340" stroke-width="3" />
+    <path d="M 270 340 C 270 330, 290 330, 290 340" stroke-width="3" />
+    <path d="M 310 340 C 310 330, 330 330, 330 340" stroke-width="3" />
+    <path d="M 345 340 C 345 330, 365 330, 365 340" stroke-width="3" />
+    <path d="M 365 340 C 365 330, 385 330, 385 340" stroke-width="3" />
+
+    <!-- Abacus Upper Border Plate -->
+    <rect x="170" y="340" width="260" height="15" rx="3" fill="#ffffff" stroke-width="4" />
+    <line x1="175" y1="347" x2="425" y2="347" stroke-width="2" stroke-dasharray="3,3" />
+
+    <!-- Abacus Middle Drum (Frieze) -->
+    <rect x="160" y="355" width="280" height="90" rx="6" fill="#ffffff" stroke-width="4" />
+
+    <!-- Center Ashoka Chakra on Abacus -->
+    <circle cx="300" cy="400" r="34" fill="#ffffff" stroke-width="4" />
+    <circle cx="300" cy="400" r="8" fill="#111827" />
+    <!-- 24 Spokes of Ashoka Chakra -->
+    <g stroke-width="1.8">
+      <line x1="300" y1="366" x2="300" y2="434" />
+      <line x1="266" y1="400" x2="334" y2="400" />
+      <line x1="276" y1="376" x2="324" y2="424" />
+      <line x1="276" y1="424" x2="324" y2="376" />
+      <line x1="287" y1="368" x2="313" y2="432" />
+      <line x1="313" y1="368" x2="287" y2="432" />
+      <line x1="268" y1="387" x2="332" y2="413" />
+      <line x1="268" y1="413" x2="332" y2="387" />
+      <line x1="293" y1="367" x2="307" y2="433" />
+      <line x1="307" y1="367" x2="293" y2="433" />
+      <line x1="267" y1="393" x2="333" y2="407" />
+      <line x1="267" y1="407" x2="333" y2="393" />
+    </g>
+
+    <!-- Galloping Horse on the Left of Abacus -->
+    <g transform="translate(175, 375) scale(0.65)">
+      <!-- Horse Body & Head -->
+      <path d="M 70 20 C 60 15, 50 10, 40 5 C 35 2, 28 8, 25 15 C 22 22, 28 28, 35 28 C 30 35, 20 45, 10 50 L 15 55 C 25 50, 40 40, 50 42 C 60 44, 75 40, 85 45 C 95 50, 100 60, 105 75 L 115 70 C 110 55, 105 45, 95 38 C 85 30, 80 25, 70 20 Z" fill="#111827" />
+      <!-- Galloping Legs -->
+      <path d="M 45 42 L 30 75 L 38 78 L 52 50" fill="#111827" />
+      <path d="M 35 45 L 20 65 L 25 70 L 42 50" fill="#111827" />
+      <path d="M 85 45 L 95 75 L 88 78 L 78 52" fill="#111827" />
+      <!-- Tail -->
+      <path d="M 95 38 C 110 35, 120 45, 125 55" stroke-width="4" stroke="#111827" />
+    </g>
+
+    <!-- Walking Bull on the Right of Abacus -->
+    <g transform="translate(345, 375) scale(0.65)">
+      <!-- Bull Hump & Body -->
+      <path d="M 20 50 C 25 35, 40 25, 55 30 C 60 25, 68 22, 75 25 C 80 27, 85 35, 80 45 C 90 48, 105 52, 110 65 L 105 75 C 95 65, 80 62, 70 65 C 55 68, 40 68, 30 75 Z" fill="#111827" />
+      <!-- Bull Head & Horns -->
+      <path d="M 20 50 C 15 45, 10 40, 5 45 C 0 50, 5 60, 12 62 C 15 65, 20 68, 25 65 Z" fill="#111827" />
+      <path d="M 12 42 C 10 32, 5 28, 2 30" stroke-width="3" stroke="#111827" />
+      <!-- Legs -->
+      <path d="M 25 65 L 22 80 L 28 80 L 32 68" fill="#111827" />
+      <path d="M 40 67 L 42 80 L 48 80 L 46 67" fill="#111827" />
+      <path d="M 85 65 L 85 80 L 92 80 L 94 65" fill="#111827" />
+      <path d="M 100 68 L 102 80 L 108 80 L 106 68" fill="#111827" />
+    </g>
+
+    <!-- Abacus Lower Base Rim -->
+    <rect x="180" y="445" width="240" height="14" rx="3" fill="#ffffff" stroke-width="4" />
+    <path d="M 190 459 C 220 475, 380 475, 410 459" stroke-width="4" fill="#ffffff" />
+    <!-- Inverted Lotus Petal details -->
+    <path d="M 205 465 C 215 485, 235 485, 245 465" stroke-width="2.5" />
+    <path d="M 245 465 C 255 485, 275 485, 285 465" stroke-width="2.5" />
+    <path d="M 285 465 C 295 485, 305 485, 315 465" stroke-width="2.5" />
+    <path d="M 315 465 C 325 485, 345 485, 355 465" stroke-width="2.5" />
+    <path d="M 355 465 C 365 485, 385 485, 395 465" stroke-width="2.5" />
+  </g>
+
+  <!-- Motto in Devanagari: सत्यमेव जयते -->
+  <text x="300" y="540" font-family="'Noto Sans Devanagari', 'Mangal', 'Yatra One', sans-serif" font-size="44" font-weight="900" text-anchor="middle" fill="#0f172a" letter-spacing="3">
+    सत्यमेव जयते
+  </text>
+
+  <!-- English Official Inscription: Government Of India -->
+  <text x="300" y="615" font-family="'Inter', 'Arial Black', 'Helvetica', sans-serif" font-size="40" font-weight="900" text-anchor="middle" fill="#0f172a" letter-spacing="1.5">
+    Government Of India
+  </text>
+</svg>

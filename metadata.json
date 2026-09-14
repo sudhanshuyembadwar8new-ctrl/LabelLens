@@ -1,0 +1,8 @@
+{
+  "name": "LabelLens — Digital Legal Metrology Inspector",
+  "description": "Evidence-backed digital inspection workspace for Legal Metrology inspectors, assisting in packaged commodity verification and compliance reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

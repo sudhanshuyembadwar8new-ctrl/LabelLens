@@ -1,4 +1,4 @@
-# METRIX — Digital Legal Metrology Inspector 
+# METRIX — Digital Legal Metrology Inspector           
 
 > **Evidence-backed inspection workspace for packaged-commodity verification and compliance reporting.**
 >

@@ -1,6 +1,6 @@
 # METRIX — Digital Legal Metrology Inspector           
 
-> **Evidence-backed inspection workspace for packaged-commodity verification and compliance reporting.**
+> **Evidence-backed inspection workspace for packaged-commodity verification and compliance reporting.**             
 >
 > The repository metadata identifies the application as **LabelLens — Digital Legal Metrology Inspector**, while the project and prototype UI use the **METRIX** name in several places. This README uses **METRIX** as the repository-facing name and calls out the branding difference where it matters.
 

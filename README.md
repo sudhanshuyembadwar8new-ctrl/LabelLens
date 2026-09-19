@@ -44,7 +44,7 @@
 - [Acknowledgements](#acknowledgements)
 - [Author and Contact](#author-and-contact)
 - [Project Summary](#project-summary)
-- [References](#references)
+- [References](#references) 
 
 ## Overview
 
